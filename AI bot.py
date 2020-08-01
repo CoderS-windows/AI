@@ -140,8 +140,8 @@ if __name__ == '__main__':
                     server = smtplib.SMTP('smtp.gmail.com', 587)
                     server.ehlo()
                     server.starttls()
-                    server.login("shreyanshshukla2020@gmail.com", '13feb2007@')
-                    server.sendmail('shreyanshshukla2020@gmail.com', "sciencehelperamgebra@gmail.com", content)
+                    server.login("emailid", 'Password')
+                    server.sendmail('emailid', "emailid", content)
                     server.close()
                     speak('Email sent!')
 
